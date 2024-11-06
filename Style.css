@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+body{
+    background-color: black;
+}
+
+.container{
+    width: 1440px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between; 
+    backdrop-filter: blur(5px);
+    padding: 20px 120px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight:600;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+.box_header {
+    background-image: url(Imagen/Sec\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:1096px;
+}
+
+.box_header_text{
+    margin-top: 250px;
+    margin-left: 130px;
+}
+
+.box_header_info{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 40px;
+    
+}
+.box_header_info h1{
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: 4px;  
+    font-size: 64px;
+    
+}
+
+.box_header_info h2{
+    font-weight: normal;
+    letter-spacing: 5px;
+    font-size: 80px;
+} 
+.box_header_info a{
+    color: white;
+    user-select: none;
+}
+.a-inf-head {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+}
+
+.btn_header_replay a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    border: 5px solid white;
+    padding: 25px 34px;
+    font-family: sans-serif;
+    user-select: none;
+    
+}
+.btn_header_replay{
+    margin-top: 40px;
+}
+
+main section:nth-child(1){
+    background-image: url(Imagen/Sec\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 895px;
+}
+
+.box_info_sc1{
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.box_info_sc1 h2{
+    color: white;
+    font-size: 64px;
+    font-weight: 500;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    padding-left: 8px;
+    
+}
+.box_info_sc1 h1{
+    color: white;
+    font-size: 92px;
+    letter-spacing: -1px;
+}
+.box_info_sc1 a{
+    color: white;
+    font-size: 16px;
+    padding-left: 14px;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+main section:nth-child(2){
+    background-color: black;
+}
+.box_sc2{
+    position: relative;
+    overflow: hidden;
+}
+
+.img_launch{
+    position: relative;
+    overflow: hidden;
+    padding: 105px;
+    object-fit: cover;
+    width: 1440px;
+    -webkit-user-drag: none;
+}
+
+.box_info_sc2{
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    gap: 25px;
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    background-color: #19426a69 ;
+    height: 670px;
+    
+}
+.box_info_sc2 h1{
+    font-size: 60px;
+    color: white;
+
+}
+.box_info_sc2 p{
+    color: white;
+    font-weight: normal;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    line-height: 22px;
+    
+    
+}
+.box_info_sc2 a{
+    color: white;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    text-decoration: none;
+    border: 3px solid white;
+    padding: 24px 65px;
+    font-weight: bold;
+    
+}
+.box_sc2_a{
+    margin-top: 10px;
+}
+
+main section:nth-child(3){
+    background-color: #cecece;
+
+}
+
+.box_flex_sc3{
+    display: flex;
+    padding: 120px;
+    padding-bottom: 60px;
+    justify-self: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.box_sc3_1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 100px;
+    background-color: #f1f1f1;
+    box-shadow: 0 0 20px gray;  
+
+}
+.box_fly_sc3{
+    position: absolute;
+    background-color: #f1f1f1;
+    margin-top: 250px;
+    padding: 8px 37px;
+}
+.box_fly_sc3 h1{
+    font-size: 18px;
+    letter-spacing: 1px;
+
+}
+.box_txt_sc3{
+    width: 300px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.box_txt_sc3 h1{
+    font-weight: bold;
+    font-size: 23px;
+    font-family: sans-serif;
+
+}
+.box_txt_sc3 p{
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    opacity: 0.9;
+    line-height: 25px;
+}
+
+.box_a_sc3 a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    border: 4px solid ;
+    padding: 22px 40px;
+    
+}
+
+.box_a_sc3{
+    padding-bottom: 55px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.h1_faq{
+    color: white;
+    font-size: 60px;
+}
+
+.box_faq_info,
+.box_faq_info1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+    
+}
+
+.box_faq_info p,
+.box_faq_info1 p{
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    padding-top: 10px;
+    
+
+
+}
+
+.box_faq_info h1,
+.box_faq_info1 h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    
+}
+
+.box_faq_info1{
+    margin-top: 60px;
+
+}
+
+footer{
+    background-color: white;
+    margin-top: 90px;
+}
+
+.box_all_footer{
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.box_link ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    letter-spacing: 1px;
+}
+.box_link ul li a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+}
+.orange{
+    background-color: #FF9568;
+    width: 100%;
+    height: 7px;
+}
+
+.box_faq_text{
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+@media(max-width:2560px){
+    .container{
+        width: 1440px;
+        
+    }
+    
+}
+
+@media(max-width:1024px){
+   .box_faq_text{
+    padding-right: 40px;
+    padding-left: 60px;
+   }
+}
+
